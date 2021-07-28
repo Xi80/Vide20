@@ -21,3 +21,5 @@ mix.js('resources/js/app.js', 'public/js')
 mix.sass('resources/assets/sass/common.sass', 'public/css');
 mix.sass('resources/assets/sass/index.sass', 'public/css');
 mix.sass('resources/assets/sass/menu.sass', 'public/css');
+mix.sass('resources/assets/sass/article.sass', 'public/css');
+

@@ -30,8 +30,43 @@ Route::get('/test1', function () {
         'itemName'=>'TEST',
             'version'=>'1.3.0',
             'menuName'=>'テストメニュー',
-            'menuDesc'=>'テストのメニューです．',
-            'items'=>[['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．']]
+            'menuDesc'=>'テストのメニューです．<br>ここも改行が許容されるんだよ．',
+            'items'=>[
+                ['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => url('testArticle'),'date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．<br>実は改行もできるんだよ．'],
+                ['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．'],
+                ['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．'],
+                ['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．'],
+                ['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．'],
+                ['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．']
+            ]
 
         ]);
+});
+
+Route::get('testArticle',function(){
+    return view('article',[
+        'articleName'=>'Z80でのリングバッファの実装', 'version'=>'1.3.0','articleDesc'=>'テスト用の記事です．<br>改行も使えます．',
+            'articleDate'=>'2021.07.29',
+            'articleBody'=>[
+                [
+                    'index'=>'これは見出し',
+                    'body'=>'これは本文．<br>1,2,3．'
+                ],
+                [
+                    'index'=>'これは見出し',
+                    'body'=>'これは本文．<br>1,2,3．'
+                ],
+                [
+                    'index'=>'これは見出し',
+                    'body'=>'これは本文．<br>1,2,3．'
+                ],
+                [
+                    'index'=>'これは見出し',
+                    'body'=>'これは本文．<br>1,2,3．'
+                ]
+            ],
+            'articleAppendix'=>''
+        ]
+
+    );
 });

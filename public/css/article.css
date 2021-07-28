@@ -1,0 +1,21 @@
+header {
+  text-align: left;
+  width: 100%;
+}
+
+.article-title {
+  font-size: 3vw;
+}
+
+.article-desc {
+  font-size: 1vw;
+}
+
+.article-date {
+  font-size: 0.8vw;
+  text-align: right;
+}
+
+.content {
+  text-align: left;
+}

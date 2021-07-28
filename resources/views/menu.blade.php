@@ -9,7 +9,7 @@
 
 @section('header')
     <h1 class="top-menu-title top-menu">{{$menuName}}</h1>
-    <p class="top-menu-desc top-menu">{{$menuDesc}}</p>
+    <p class="top-menu-desc top-menu">{!!$menuDesc!!}</p>
 @endsection
 
 @section('content')
@@ -21,7 +21,7 @@
                     <div class="item-desc">
                         <h2><a href="{{$item['link']}}">{{$item['name']}}</a></h2>
                         <p class="date">{{$item['date']}}</p>
-                        <p>{{$item['desc']}}</p>
+                        <p>{!!$item['desc']!!}</p>
                     </div>
                 </div>
             </li>

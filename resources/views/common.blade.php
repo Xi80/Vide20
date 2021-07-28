@@ -22,6 +22,7 @@
 
 <footer>
     @yield('footer')
+    <p>This Website works on Laravel.</p>
     <p>Copyright 2021 Luna Tsukinashi</p>
     <p>Vide {{$version}}</p>
 </footer>
