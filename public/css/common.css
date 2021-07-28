@@ -1,0 +1,18 @@
+/*stylesheet written in SASS*/
+body {
+  text-align: center;
+  background-color: lavender;
+  margin: auto auto auto auto;
+  width: 80%;
+}
+
+.content {
+  text-align: center;
+}
+.content h1 {
+  font-size: 2em;
+}
+
+footer > p {
+  font-size: 0.8em;
+}

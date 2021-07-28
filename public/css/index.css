@@ -1,0 +1,72 @@
+.since {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.update-history {
+  text-align: center;
+}
+.update-history textarea {
+  text-align: left;
+  width: 70%;
+}
+
+.top-picture {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+}
+.top-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.top-menu {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.last-update {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.menu ul {
+  padding: 0;
+  position: relative;
+  width: 90%;
+}
+.menu li {
+  background: #FFF0F5;
+  border-left: solid 5px #FF8C00;
+  color: #000000;
+  line-height: 1.2;
+  list-style-type: none;
+  margin-bottom: 5px;
+  padding: 1em;
+  width: 100%;
+}
+
+.top-menu-container {
+  display: inline-block;
+  margin: auto;
+}
+
+@font-face {
+  font-family: title-logo;
+  font-display: swap;
+  src: url("/logo.woff2") format("woff2");
+}
+header > h1 {
+  font-size: 4em;
+  margin: 0 auto 0 auto;
+  font-family: title-logo, cursive;
+}
+header > h1 > span {
+  color: #e62000;
+}
+header > p {
+  font-size: 1em;
+}

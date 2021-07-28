@@ -1,6 +1,7 @@
 $menu_background_color: #FFF0F5
 $menu_border_color: #FF8C00
 $menu_color: #000000
+$logo_color: #e62000
 
 .since
     font-size: 0.8em
@@ -51,3 +52,18 @@ $menu_color: #000000
 .top-menu-container
     display: inline-block
     margin: auto
+
+@font-face
+    font-family: title-logo
+    font-display: swap
+    src: url("/logo.woff2") format("woff2")
+
+header
+    >h1
+        font-size: 4em
+        margin: 0 auto 0 auto
+        font-family: title-logo, cursive
+        >span
+            color: $logo_color
+    >p
+        font-size: 1em
