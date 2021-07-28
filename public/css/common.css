@@ -4,6 +4,7 @@ body {
   background-color: lavender;
   margin: auto auto auto auto;
   width: 80%;
+  font-size: 1vw;
 }
 
 .content {
@@ -11,7 +12,7 @@ body {
   width: 100%;
 }
 .content h1 {
-  font-size: 2em;
+  font-size: 4vw;
 }
 
 footer > p {

@@ -31,7 +31,7 @@ Route::get('/test1', function () {
             'version'=>'1.3.0',
             'menuName'=>'テストメニュー',
             'menuDesc'=>'テストのメニューです．',
-            'items'=>[['name'=>'テストだよ','picture'=>'none.jpg','link' => '/test','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．']]
+            'items'=>[['name'=>'テストだよ','picture'=>'img/img01.jpg','link' => '/test','date'=>'2021.07.29','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．']]
 
         ]);
 });

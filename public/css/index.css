@@ -1,5 +1,5 @@
 .since {
-  font-size: 0.8em;
+  font-size: 0.8vw;
   text-align: right;
 }
 
@@ -30,7 +30,6 @@
 
 .last-update {
   text-align: right;
-  font-size: 0.8em;
 }
 
 .menu {
@@ -47,9 +46,10 @@
   background: #FFF0F5;
   border-left: solid 5px #FF8C00;
   color: #000000;
-  line-height: 1.2;
+  line-height: 1;
   list-style-type: none;
-  margin-bottom: 5px;
+  margin-bottom: 0.2vh;
+  padding: 0.8em;
   width: 100%;
 }
 
@@ -64,7 +64,7 @@
   src: url("/logo.woff2") format("woff2");
 }
 header > h1 {
-  font-size: 4em;
+  font-size: 5vw;
   margin: 0 auto 0 auto;
   font-family: title-logo, cursive;
 }
@@ -72,5 +72,5 @@ header > h1 > span {
   color: #e62000;
 }
 header > p {
-  font-size: 1em;
+  font-size: 1vw;
 }
