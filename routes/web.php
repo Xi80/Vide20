@@ -23,3 +23,15 @@ Route::get('/', function () {
             ['name'=>'test3','link'=>'/test3','desc'=>'テストだよ3','lastUpdate'=>'2021.07.26'],
         ]]);
 });
+
+Route::get('/test1', function () {
+    return view('menu',
+        [
+        'itemName'=>'TEST',
+            'version'=>'1.3.0',
+            'menuName'=>'テストメニュー',
+            'menuDesc'=>'テストのメニューです．',
+            'items'=>[['name'=>'テストだよ','picture'=>'none.jpg','link' => '/test','desc'=>'そうだよ，きっと．真のラスボスはあの人なんだよ．']]
+
+        ]);
+});

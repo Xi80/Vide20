@@ -1,0 +1,16 @@
+.item-pic {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  vertical-align: middle;
+}
+
+.item-desc {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu {
+  width: 90%;
+  text-align: left;
+}

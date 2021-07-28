@@ -8,6 +8,7 @@ body {
 
 .content {
   text-align: center;
+  width: 100%;
 }
 .content h1 {
   font-size: 2em;
